@@ -1,0 +1,87 @@
+body {
+        background-image: url('/static/img/nbk.png');
+        background-repeat: repeat;
+        
+}
+
+.navbar-fixed-top {
+        box-shadow: 0 7px 7px 2px black;
+}
+
+.brand {
+        background-image: url('/static/img/2logo.png');
+}
+
+.navbar-inner {
+        height: 60px;
+}
+
+.main-part {
+}
+
+.success-container {
+        position: absolute;
+        width: 800px;
+        top: -640px;
+        margin-top: 5px;
+}
+
+#information-bar {
+        padding: 5px;
+        background-color: #149bdf;
+}
+
+#information-bar span{
+        cursor: default;
+}
+
+#short-address {
+        float:left;
+}
+
+#download-link {
+        float:right;
+}
+
+#preview-container {
+        width: 800px;
+}
+
+#upload-more-button {
+        margin-left: 350px;
+}
+
+#content img {
+        margin-left: 100px;
+        margin-right: 100px;
+}
+
+.slide-container {
+        position: absolute;
+        width: 800px;
+        height: 500px;
+}
+
+.slide-window {
+        margin-top: 20px;
+        margin-left: 10px;
+        margin-right: 10px;
+        float: left;
+        width: 780px;
+        height: 480px;
+        overflow: hidden;
+}
+
+#myCarousel {
+        width:100%;
+        height:100%;
+
+}
+
+.page {
+        width: 320px;
+        height: 360px;
+        margin-top: 20px;
+        margin-left: auto;
+        margin-right: auto;
+}

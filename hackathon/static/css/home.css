@@ -1,0 +1,170 @@
+
+body {
+        background-image: url('/static/img/nbk.png');
+        background-repeat: repeat;
+}
+
+.navbar-fixed-top {
+        box-shadow: 0 7px 7px 2px black;
+}
+
+a{
+	padding: 0;
+	margin: 0;
+}
+
+.brand {
+        
+}
+
+.login-info {
+	margin: 20px 0 0 0;
+}
+
+.navbar-inner {
+        height: 60px;
+}
+
+.main-part {
+        margin-top: 60px;
+}
+
+.success-container {
+        position: absolute;
+        min-height: 600px;
+        top: -640px;
+        margin-top: 65px;
+}
+
+#information-bar {
+        padding: 5px;
+        background-color: #149bdf;
+}
+
+#information-bar span{
+        cursor: default;
+}
+
+#short-address {
+        float:left;
+}
+
+#download-link {
+        float:right;
+}
+
+#preview-container {
+        width: 900px;
+        min-height: 400px;
+        margin-left: 19px;
+}
+
+#container {
+        margin-left: auto;
+        margin-right: auto;
+}
+
+#upload-more-button {
+        margin-left: 30px;
+}
+
+#information-bar {
+	bottom: 0;
+	left: 0;
+	height: 40px;
+	background-color: rgba(0, 100, 240, 0.8);
+}
+
+#information-bar .info-wrap {
+	width: 960px;
+	margin: auto;
+}
+
+.slide-container {
+        position: absolute;
+        width: 760px;
+        height: 400px;
+        margin-left: 80px;
+        margin-top: 80px;
+}
+
+.left-wall {
+        position: absolute;
+        left: 0;
+        height: 100%;
+        width: 10px;
+        box-shadow: 7px 0 7px 2px #000;
+        float: left;
+}
+
+.right-wall {
+        position: absolute;
+        right: 0;
+        height: 100%;
+        width: 10px;
+        box-shadow: -7px 0 7px 2px #000;
+        float: left;
+}
+
+.slide-window {
+        margin-top: 20px;
+        margin-left: 10px;
+        margin-right: 10px;
+        box-shadow: 0 0 5px #000;
+        background-color: #FAFAFA;
+        float: left;
+        width: 740px;
+        height: 360px;
+        overflow: hidden;
+}
+
+#myCarousel {
+        width:100%;
+        height:100%;
+
+}
+
+.page {
+        width: 400px;
+        height: 360px;
+        margin-top: 20px;
+        margin-left: auto;
+        margin-right: auto;
+}
+
+#foot-bar {
+	width: 100%;
+	position: fixed;
+	bottom: 0;
+}
+
+.of {
+	overflow: auto;
+}
+
+.login-wrap {
+	margin-left: 10px;
+}
+
+#qq-login {
+	cursor: pointer;
+}
+
+#qq-login:hover {
+	opacity: 0.8;
+}
+
+#foot-bar {
+        bottom: -50px;
+}
+
+#content img {
+        margin-left: 150px;
+        margin-right: 150px;
+}
+
+#bin {
+        position: absolute;
+        bottom: 40px;
+        right: 0;
+}

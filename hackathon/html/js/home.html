@@ -1,0 +1,91 @@
+<html lang="en">
+        <head>
+                <title>home</title>
+                <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+                <link href="./css/bootstrap.min.css" rel="stylesheet" media="screen">
+                <link href="./css/home.css" rel="stylesheet">
+        </head>
+        <body>
+                <div class="navbar navbar-fixed-top ">
+                        <div class="navbar-inner">
+                                <div class="container">
+                                        <a class="brand">Logo</a>
+                                        <div class="pull-right">Login-Information</div>
+                                </div>
+                        </div>
+                </div>
+
+                <div class="main-part container">
+                        <div class="success-container">
+                                <div id="information-bar">
+                                        <span class="input-large uneditable-input" id="short-address">
+                                                <i class="icon-tags"></i> 
+                                                短链接
+                                        </span>
+                                        <input type="button" class="btn" value="上传更多文件" id="upload-more-button">
+                                        <span class="input-large uneditable-input" id="download-link">
+                                                <i class="icon-arrow-down"></i>
+                                                下载
+                                        </span>
+                                </div>
+                                <div id="preview-container">
+                                        
+                                </div>
+                                <a name="xn_share" onclick="shareClick()" type="button" href="javascript:;"></a>
+                        </div>
+                        <div class="slide-container">
+                                <div class="left-wall">
+
+                                </div>
+                                <div class="slide-window">
+                                        <div class="slide-wrap">
+                                                <div id="myCarousel" class="carousel slide">
+                                                        <div class="carousel-inner">
+                                                                <div class="item active">
+                                                                        <div class="page" id="file-upload">
+                                                                                <img src="img/file.png">
+                                                                                <p>请往此处拖入文件</p>
+                                                                        </div>
+
+                                                                </div>
+                                                                <div class="item">
+                                                                        <div class="page">
+                                                                                <div class="progress progress-striped active">
+                                                                                        <div class="bar" style="width: 40%;"></div>
+                                                                                </div>
+                                                                                <input type="button" class="btn btn-primary" value="测试用" id="test-button"/>
+                                                                        </div>
+                                                                </div>
+                                                        </div>
+                                                        <a class="left carousel-control" href="#myCarousel" data-slide="prev">‹</a>
+                                                        <a class="right carousel-control" href="#myCarousel" data-slide="next">›</a>
+                                                </div>
+                                        </div>
+                                </div>
+                                <div class="right-wall">
+
+                                </div>
+                        </div>
+                </div>
+                <div class="footer">
+
+                </div>
+                <script src=" http://tjs.sjs.sinajs.cn/open/api/js/wb.js?appkey=3168919025" type="text/javascript" charset="utf-8"></script>
+                <script type="text/javascript" src="http://widget.renren.com/js/rrshare.js"></script>
+                <script type="text/javascript">
+                        function shareClick() {
+                                var rrShareParam = {
+                                        resourceUrl : '',	//分享的资源Url
+                                        srcUrl : '',	//分享的资源来源Url,默认为header中的Referer,如果分享失败可以调整此值为resourceUrl试试
+                                        pic : '',		//分享的主题图片Url
+                                        title : '',		//分享的标题
+                                        description : ''	//分享的详细描述
+                                };
+                                rrShareOnclick(rrShareParam);
+                        }	
+                </script>
+                <script src="./js/jquery.min.js"></script>
+                <script src="./js/bootstrap.min.js"></script>
+                <script src="./js/home.js"></script>
+        </body>
+</html>

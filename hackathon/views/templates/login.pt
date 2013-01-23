@@ -1,0 +1,16 @@
+<head>
+	<script src="//mat1.gtimg.com/app/openjs/openjs.js"></script>
+</head>
+<body>
+	<script>
+		T.init({
+        	appkey:801288266 
+    	});
+		T.login(function (loginStatus) {
+        	alert(loginStatus.nick);
+	    },function (loginError) {
+	        alert(loginError.message);
+	    });
+	    status = T.loginStatus();
+	</script>
+</body>

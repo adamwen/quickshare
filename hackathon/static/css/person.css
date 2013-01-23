@@ -1,0 +1,15 @@
+body {
+        background-image: url('/static/img/nbk.png');
+        background-repeat: repeat;
+}
+.login-wrap {
+	margin-left: 10px;
+}
+
+#qq-login {
+	cursor: pointer;
+}
+
+#qq-login:hover {
+	opacity: 0.8;
+}
